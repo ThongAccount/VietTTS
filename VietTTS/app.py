@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import torch
-from viettts import TTS
+from vietTTS import TTS
 
 app = Flask(__name__)
 
