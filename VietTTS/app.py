@@ -4,7 +4,7 @@ from viettts import TTS
 
 app = Flask(__name__)
 
-# Initialize TTS model
+# Khởi tạo mô hình VietTTS
 tts = TTS()
 
 @app.route("/tts", methods=["POST"])
